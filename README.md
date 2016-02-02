@@ -1,8 +1,7 @@
 # Swift Alert/Popup Window In Center Position
 ----------
->
-> Rz Rasel
->
+
+## Rz Rasel
 
 <br/>
 Target <code>iOS 9+</code> <code>Swift 2+</code>
