@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SwiftAlertCenterOne" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d5d-mT-5Dx">
+                                <rect key="frame" x="93" y="84" width="134" height="39"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="134" id="hPp-sx-g2t"/>
+                                    <constraint firstAttribute="height" constant="39" id="rZB-JS-f5t"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Left To Right"/>
+                                <connections>
+                                    <action selector="sysBtnOnClickAlertLeftToRight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qW3-1T-tOM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bRX-iB-rvS">
+                                <rect key="frame" x="93" y="140" width="134" height="39"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="134" id="70h-o7-Dvl"/>
+                                    <constraint firstAttribute="height" constant="39" id="8KR-Pq-1XQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Right To Left"/>
+                                <connections>
+                                    <action selector="sysBtnOnClickAlertRightToLeft:" destination="BYZ-38-t0r" eventType="touchUpInside" id="itR-j5-X3m"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CZU-EU-ik1">
+                                <rect key="frame" x="93" y="194" width="134" height="39"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="7io-hf-H4l"/>
+                                    <constraint firstAttribute="width" constant="134" id="y8U-xd-S6S"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Bottom To Top"/>
+                                <connections>
+                                    <action selector="sysBtnOnClickAlertBottomToTop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dQp-E0-KX6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7h4-my-VYd">
+                                <rect key="frame" x="93" y="249" width="134" height="39"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="134" id="Ami-Wj-ihR"/>
+                                    <constraint firstAttribute="height" constant="39" id="ntS-ro-OGp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Top To Bottom"/>
+                                <connections>
+                                    <action selector="sysBtnOnClickAlertTopToBottom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z8d-zI-Q9O"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="d5d-mT-5Dx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="64" id="1V5-gH-e0i"/>
+                            <constraint firstItem="CZU-EU-ik1" firstAttribute="top" secondItem="bRX-iB-rvS" secondAttribute="bottom" constant="15" id="4uC-77-e0Y"/>
+                            <constraint firstItem="CZU-EU-ik1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4wk-J8-Nlr"/>
+                            <constraint firstItem="7h4-my-VYd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9c8-69-u8H"/>
+                            <constraint firstItem="7h4-my-VYd" firstAttribute="top" secondItem="CZU-EU-ik1" secondAttribute="bottom" constant="16" id="UQp-6e-zJA"/>
+                            <constraint firstItem="bRX-iB-rvS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XCz-bh-RHz"/>
+                            <constraint firstItem="d5d-mT-5Dx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jyW-bs-Q2h"/>
+                            <constraint firstItem="bRX-iB-rvS" firstAttribute="top" secondItem="d5d-mT-5Dx" secondAttribute="bottom" constant="17" id="oUg-nX-JLm"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="565" y="445"/>
+        </scene>
+    </scenes>
+</document>
