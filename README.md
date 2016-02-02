@@ -10,3 +10,5 @@ Target <code>iOS 9+</code> <code>Swift 2+</code>
 
 [![](http://img.shields.io/badge/Swift-2.1-blue.svg)](https://developer.apple.com/swift)
 [![](http://img.shields.io/badge/Platforms-iOS_|%20OS%20X_|%20tvOS_|%20watchOS-blue.svg)]()
+
+<i class="icon-provider-gdrive"></i>
